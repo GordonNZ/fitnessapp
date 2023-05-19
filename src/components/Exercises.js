@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Pagination } from '@mui/material/Pagination';
+import { Box, Stack, Typography } from '@mui/material';
 
-function Exercises() {
-  return <div>Exercises</div>;
+import { exerciseOptions, fetchData } from '../utils/fetchData';
+
+function Exercises({ exercises, setExercises, bodyPart }) {
+  return <Box id='exercises'>;
 }
 
 export default Exercises;
